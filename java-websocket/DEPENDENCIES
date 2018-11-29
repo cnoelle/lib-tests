@@ -1,0 +1,45 @@
+// ------------------------------------------------------------------
+// This project includes the following projects
+// ------------------------------------------------------------------
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Felix framework (http://felix.apache.org/), system/org.apache.felix.framework-6.1.0.jar
+  - Apache Felix launcher (http://felix.apache.org/documentation/subprojects/apache-felix-framework/apache-felix-framework-launching-and-embedding.html), system/felix-launcher.jar
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+ 
+From: 'Smartrplace UG' (http://www.smartrplace.de)
+   - Maven resolver (https://github.com/smartrplace/maven-resolver), bundle/maven-resolver-0.0.2-SNAPSHOT.jar
+
+// ------------------------------------------------------------------
+// Dependencies of this project
+// ------------------------------------------------------------------
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Felix SCR (http://felix.apache.org/), org.apache.felix:org.apache.felix.scr:jar
+  - Apache Felix Configadmin (http://felix.apache.org/), org.apache.felix:org.apache.felix.configadmin:jar
+  - Apache Felix Configurator (http://felix.apache.org/), org.apache.felix:org.apache.felix.configurator:jar
+  - Apache Felix Event Admin (http://felix.apache.org/), org.apache.felix:org.apache.felix.eventadmin:jar
+  - Apache Felix Fileinstall (http://felix.apache.org/), org.apache.felix:org.apache.felix.fileinstall:jar
+  - Apache Felix Gogo runtime (http://felix.apache.org/), org.apache.felix:org.apache.felix.gogo.runtime:jar
+  - Apache Felix Gogo command (http://felix.apache.org/), org.apache.felix:org.apache.felix.gogo.command:jar
+  - Apache Felix Gogo jline (http://felix.apache.org/), org.apache.felix:org.apache.felix.gogo.jline:jar
+  - Apache Felix Metatype (http://felix.apache.org/), org.apache.felix:org.apache.felix.metatype:jar
+
+From: 'The OSGi alliance' (http://www.osgi.org)
+   - OSGi core API () org.osgi:osgi.core:jar
+     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.25
+  - SLF4J Simple Module (http://www.slf4j.org) org.slf4j:slf4j-simple:jar:1.7.25
+  - OSGi over SLF4j (http://www.slf4j.org) org.slf4j:osgi-over-slf4j:jar:1.7.25
+  - Log4j over SLF4j (http://www.slf4j.org) org.slf4j:log4j-over-slf4j:jar:1.7.25
+  - JUL to SLF4j (http://www.slf4j.org) org.slf4j:jul-to-slf4j:jar:1.7.25
+  - JCL over SLF4j (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.25
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+From individual authors:
+  - JLine (https://jline.github.io/), org.jline:jline:jar
+    License: BSD license (http://www.opensource.org/licenses/bsd-license.php)
+  - Java-WebSocket (https://github.com/TooTallNate/Java-WebSocket) from Nathan Rajlich, org.java-websocket:Java-WebSocket:jar
+    License: MIT license (http://www.opensource.org/licenses/mit-license.php)

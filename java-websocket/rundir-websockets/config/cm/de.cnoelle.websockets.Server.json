@@ -1,0 +1,9 @@
+{
+	"de.cnoelle.websockets.Server": {
+		"host":"localhost",
+		"port":8448,
+		"updateIntervalSeconds":10
+	},
+   ":configurator:version":"1",
+   ":configurator:symbolic-name":"websocketsServer"
+}

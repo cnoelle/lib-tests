@@ -1,0 +1,12 @@
+{
+	"de.cnoelle.websockets.Client~1": {
+		"updateIntervalSeconds":10,
+		"server":"ws://localhost:8448"
+	},
+	"de.cnoelle.websockets.Client~2": {
+		"updateIntervalSeconds":17,
+		"server":"ws://localhost:8448"
+	},
+   ":configurator:version":"1",
+   ":configurator:symbolic-name":"websocketsClient"
+}
