@@ -30,9 +30,6 @@ class WsSampleClient extends WebSocketClient {
 		super(serverUri);
 		this.updateIntervalSeconds = updateIntervalSeconds;
 		this.exec = Executors.newSingleThreadScheduledExecutor(r -> new Thread(r, "websockets-sampleclient"));
-		if (updateIntervalSeconds > 0) {
-			exec.scheduleWithFixedDelay(() -> send("Hi server " + cnt.getAndIncrement()), updateIntervalSeconds, updateIntervalSeconds, TimeUnit.SECONDS);
-		}
 		reconnectInternal(false);
 	}
 	
